@@ -1,0 +1,258 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background-image: url('doctor.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgb(2, 20, 150);opacity: 0.8; 
+
+}
+.menu:hover{
+	background-color: rgb(0, 150,230); opacity: 0.7;
+    
+}
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+
+
+.rightmenu ul li:hover{
+	color: black;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	/* text-align: center; */
+	color: black;
+}
+
+
+.text h4{
+
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 10%;
+
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.btn{
+	padding-left: 6%;
+}
+.btn button{
+	  font-size: 17px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+	/* background: linear-gradient(57deg,  blue );  */
+	background-color: rgb(2, 20, 150);
+    border-radius: 4px 4px 4px 4px;
+    padding: 20px 35px ; 
+}
+.btn button:hover{
+	background-color: rgb(0, 150,230); 
+	color: black;
+}
+
+
+
+/* .form-data{
+	margin-top: 21%;
+	background-color: #FFF;
+}
+.form-body{
+	padding: 20px;
+}
+.form-head{
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+.form-head h2{
+	font-size: 22px;
+	font-weight: 600;
+}
+.no-margin{
+	margin: 0px;
+}
+.upper{
+	display: flex;
+}
+.form-row{
+	margin-bottom: 15px;
+}
+.form-control{
+	background-color: #f7f7ff;
+	border-radius: 0px;
+	margin: 2%;
+}
+.form-control:focus{
+	box-shadow: none;
+	border: 3px solid #138496;
+}
+.btn-appointment{
+	background-color: #138496 !important;
+	border-color: #138496 !important;
+	width: 100%;
+}
+.content{
+	margin-top: 15%;
+	text-align: center;
+	color: #FFF;
+	padding: 30px;
+}
+.content h1{
+	font-weight: 600;
+	font-size: 2rem;
+}
+.content h2{
+	font-weight: 600;
+	font-size:2.5rem;
+	margin-top: 20px;
+}
+.content p{
+	font-size: 22px;
+	margin-top: 20px;
+}
+.col-sm-6{
+	width: 25%;
+} */
+
+.container{
+	/* border: 1px solid black; */
+	background-color: rgb(0, 150,230); opacity: 0.8;
+
+	width: 45%;
+	margin-top: 2%;
+	box-shadow: 10px 15px  rgb(2, 20, 150);
+
+}
+
+#form-title{
+	margin-top: 13%;
+}
+.form-head hr{
+	margin-top: 0%;
+	border: 1px solid black;
+}
+.form-control{
+	margin: 5px;
+}
+.form-row{
+	margin: 5px;
+
+}
+.btn-appointment{
+	background-color: rgb(2, 20, 150);
+	border-radius: 4px 4px 4px 4px;
+	width: 20%;
+	margin: 0 0 0 67%;
+	padding:10px;
+} 
+.btn-appointment:hover{
+	background-color:  rgb(0, 150,230);
+	color:  black;
+	font-weight: bold;
+	border: 2px solid;
+}
+.btn-after {
+	background-color: rgb(2, 20, 150); 
+	border-radius: 4px 4px 4px 4px;
+	margin: 0 0 2px 67%;
+
+	color: white;
+}
+.btn-after :hover{
+	background-color:  rgb(0, 150,230);
+	color:  black;
+	font-weight: bold;
+	border: 2px solid;
+}
+
+.form-row4{
+	/* border: 1px transparent;
+	background-color: white; */
+	margin: 1px;
+}
+.dept{
+	margin: 0 175px 0 5px;
+	/* color: rgb(94, 90, 90); */
+	/* background-color: white; */
+	color:black;
+	padding-right: 15px;
+}
+.thank{
+	box-shadow: 5px 10px  rgb(2, 20, 150);
+}
+
+.datepicker td, .datepicker th{
+	padding: 5px;
+}
+h6{
+	margin: 35px 0 20px 5px;
+	text-decoration: underline;
+    text-underline-position: under;
+}
+.dropdown-menu.datepicker{
+	max-width: 300px !important;
+}
+
+
+@media screen and (max-width: 976px){
+	
+}
